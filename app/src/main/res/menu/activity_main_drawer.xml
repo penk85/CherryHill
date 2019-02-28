@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="@string/home"/>
+        <item
+            android:id="@+id/nav_eruv"
+            android:icon="@drawable/ic_directions_walk_black_24dp"
+            android:title="@string/eruv"/>
+        <item
+            android:id="@+id/nav_shuls"
+            android:icon="@drawable/ic_location_city_black_24dp"
+            android:title="@string/shuls"/>
+
+        <item
+            android:id="@+id/nav_schools"
+            android:icon="@drawable/ic_school_black_24dp"
+            android:title="@string/schools"/>
+        <item
+            android:id="@+id/nav_website"
+            android:icon="@drawable/ic_web_black_24dp"
+            android:title="@string/websites"/>
+
+        <item
+            android:id="@+id/nav_restaurants"
+            android:icon="@drawable/ic_local_dining_black_24dp"
+            android:title="@string/restaurants"/>
+    </group>
+
+
+</menu>
